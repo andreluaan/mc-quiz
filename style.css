@@ -1,17 +1,19 @@
 body {
-    background: url('https://i.pinimg.com/originals/3d/c9/c8/3dc9c8646d7a5935b7b6192112c2f72b.jpg') black;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHc9GBNSaofCemiAM2ccNEqMvQPqapkVmE6Q&usqp=CAU') black;
+    background-repeat: repeat;
     color: white;
     margin: 0px;
+}
+.sgb{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button {
     text-align: center;
     border: solid 1px black;
     width: 100px;
-    padding: 5px;
+    padding: 5px ;
     border-radius: 4px;
 
 }
