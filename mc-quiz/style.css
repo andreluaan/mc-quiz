@@ -1,0 +1,19 @@
+body {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHc9GBNSaofCemiAM2ccNEqMvQPqapkVmE6Q&usqp=CAU') black;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+    margin: 0px;
+}
+
+button {
+    text-align: center;
+    border: solid 1px black;
+    width: 100px;
+    padding: 5px ;
+    border-radius: 4px;
+
+}
+#error-message {
+    color: red;
+}
