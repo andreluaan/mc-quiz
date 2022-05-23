@@ -41,9 +41,17 @@ function validarResposta() {
         const acertou = resposta == perguntas[indice].resposta;
         if (acertou) {
             proximaPergunta(true);
+            pontosGrupo += pontuacao;
+            pontuacao = 10;
+            pontos.innerHTML = pontosGrupo.toString();
             //funçao de pontuação 
         } else {
             errorMsg.innerHTML = 'erooooooou';
+            pontuacao -= 2;
+            esconder('opcoes');
+            esconder('next-button');
+            mostrar('retry-button');
+            esconder('question-title');
         }
     } else {
         errorMsg.innerHTML = 'Selecione uma resposta';
@@ -56,15 +64,29 @@ function iniciarJogo () {
     proximaPergunta();
 }
 
+function tentarNovamente() {
+    mostrar('question-title');
+    mostrar('opcoes');
+    mostrar('next-button');
+    esconder('retry-button');
+    errorMsg.innerHTML = '';
+}
 
 const opcoesHTML = document.getElementById('opcoes');
 const startButton = document.getElementById('start-button');
 const nextButton = document.getElementById('next-button');
+const retryButton = document.getElementById('retry-button');
 const errorMsg = document.getElementById('error-message');
+const pontos = document.getElementById('pontos');
+let pontuacao = 10
+let pontosGrupo = 0
+// posição da pergunta na lista
+let indice = 0;
 
 // dizer ao botao (start-button) qual acao (iniciarJogo) ele deve executar ao ser clicado 
 startButton.onclick = iniciarJogo;
 nextButton.onclick = validarResposta;
+retryButton.onclick = tentarNovamente;
 
 
 const perguntas = [
@@ -160,7 +182,3 @@ const perguntas = [
 ]
 
 
-
-
-// posição da pergunta na lista
-let indice = 0;
