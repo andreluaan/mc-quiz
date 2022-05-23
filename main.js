@@ -71,7 +71,7 @@ const perguntas = [
     {
         titulo: 'De acordo com o termo “pesquisa” no contexto científico, ela pode ser classificada em três tipos. São eles:',
         opcoes: ['Pesquisa primária, pesquisa secundária e pesquisa terciária.','Pesquisa exploratória, pesquisa descritiva e pesquisa de levantamento.' , 'Pesquisa quanto à natureza, pesquisa-ação e quanto aos procedimentos técnicos.' , 'Pesquisa bibliográfica, documental e experimental.' , 'Pesquisa quanto à natureza, quanto aos objetivos e quanto aos procedimentos técnicos.' ],
-        resposta: 1
+        resposta: 4
     }   
     
     ,{
@@ -95,19 +95,19 @@ const perguntas = [
     ,{
         titulo: 'O estudo de caso é uma técnica muito utilizada em Computação, cabe mencionar que existem dois tipos básicos de estudos de caso:',
         opcoes: ['Caso etnográfico e Caso exploratório','Case exploratório e Caso de levantamento.' , 'Caso confirmatório e Caso exploratório.' , 'Caso especial e Prova de validade.' ],
-        resposta: 3
+        resposta: 2
     }
 
     ,{
         titulo: '“Busca apresentar conhecimento novo a partir de observações e teorias construídas para explicá-las. Assume-se a nova informação como relevante quando ela tem implicação na forma como se entendem os processos e sistemas ou quando tem implicação prática na sua realização.” De acordo com os tipos de pesquisa, marque a alternativa correta que mais se encaixa com esta definição.',
         opcoes: ['Pesquisa terciária','Pesquisa exploratória' , 'Pesquisa explicativa' , 'Pesquisa primária' , 'Pesquisa científica' ],
-        resposta: 4
+        resposta: 3
     }
 
     ,{
         titulo: 'Qual o tipo de pesquisa pode ser utilizado, por exemplo, para descobrir quais técnicas e ferramentas têm sido usadas na indústria ou na academia?',
         opcoes: ['Pesquisa de levantamento','Pesquisa-ação' , 'Pesquisa experimental' , 'Pesquisa observacional' , 'Pesquisa Documental' ],
-        resposta: 4
+        resposta: 0
     }
 
     ,{
