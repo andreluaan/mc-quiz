@@ -5,23 +5,28 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preload" href="aAttackGraffiti.ttf" as="font" type="font/ttf" crossorigin>
     </head>
-    <body>
+    <body>        
         <audio autoplay loop src="./resources/WhatsApp Audio 2022-05-22 at 21.46.48 (1).mp4"></audio>
         <div class="box">
+            <h2 id="title">SHOW DO GIL BALA</h2>
+
             <div id="contador">
                 <img src="./resources/logo gil bala.webp" alt="">
             </div>
-            <button id="start-button">Iniciar</button>
+            <button id="start-button">PLAY</button>
             <h4 id="question-title"></h4>
-            <h2 id="pontos"></h2>
+            <div class="pointsBox">
+                <h2 id="pontos" hidden>0</h2>
+            </div>
             <div id="opcoes"></div>
             <div id="error-message"></div>
             <div class="buttonHolder">
                 <button class="red" id="retry-button" hidden>Tentar Novamente</button>
                 <button class="red" id="next-button" hidden>Confirmar</button>
             </div>
-            <img id="end-image" src="firework.gif" hidden/>
+            <img id="end-image" src="4eA8.gif" hidden/>
         </div>
         
     </body>

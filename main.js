@@ -47,10 +47,11 @@ function validarResposta() {
             //funçao de pontuação 
         } else {
             errorMsg.innerHTML = 'erooooooou';
-            pontuacao -= 2;
+            pontuacao -= 3;
             esconder('opcoes');
             esconder('next-button');
             mostrar('retry-button');
+            esconder('pontos');
             esconder('question-title');
         }
     } else {
@@ -60,7 +61,9 @@ function validarResposta() {
 
 function iniciarJogo () {
     esconder('start-button');
+    esconder('title');
     mostrar('next-button');
+    mostrar('pontos');
     proximaPergunta();
 }
 
@@ -69,6 +72,7 @@ function tentarNovamente() {
     mostrar('opcoes');
     mostrar('next-button');
     esconder('retry-button');
+    mostrar('pontos');
     errorMsg.innerHTML = '';
 }
 
