@@ -101,13 +101,13 @@ const perguntas = [
     }   
     
     ,{
-        titulo: 'Dê uma definição de pelo menos três tipos de pesquisa.',
+        titulo: 'É exemplo de pesquisa quanto aos objetivos e procedimentos técnicos:',
         opcoes: ['Pesquisa etnográfica e pesquisa bibliográfica','Pesquisa primária e pesquisa terciária' , 'Pesquisa de levantamento e pesquisa explicativa' , 'Pesquisa-ação e casos confirmatórios' ],
         resposta: 2
     }
 
     ,{
-        titulo: 'De acordo com a Computação, como são definidos os termos “Ciência e Tecnologia”?',
+        titulo: '- Qual o tipo de pesquisa que geralmente foca o design?',
         opcoes: ['Pesquisa documental','Pesquisa bibliográfica' , 'Pesquisa de levantamento' , 'Pesquisa-ação' , ],
         resposta: 3
     }
@@ -149,7 +149,7 @@ const perguntas = [
     }
 
     ,{
-        titulo: 'Uma técnica muito popular na qual o pesquisador vai buscar evidências a partir de diferentes técnicas é chamada:',
+        titulo: 'É Uma técnica muito popular na qual o pesquisador vai buscar evidências a partir de diferentes técnicas é chamada:',
         opcoes: ['Triangulação','Prova de validade' , 'Estudos dirigidos ' , 'Verdade Absoluta' ],
         resposta: 0
     }
