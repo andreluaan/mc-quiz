@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./resources/SL-071219-21480-07.jpg);
+    background-image: url(SL-071219-21480-07.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -48,6 +48,7 @@ button {
     padding: 5px ;
     border-radius: 4px;
     transition: 0.3s;
+    font-family:'Times New Roman', Times, serif;
 }
 
 button:hover {
@@ -63,6 +64,13 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #e61010;
+    text-shadow: 0 0 5px #e61010, 0 0 10px #FFF, 0 0 15px #e61010, 0 0 20px #e61010, 0 0 30px #D45B39, 0 0 40px #D45B39, 0 0 55px #D45B39, 0 0 75px #D45B39;
+    color: #FFFFFF;
+    font-family: 'fantasy';
+    font-weight:normal;
+    font-style:normal;
+    font-size: 20px;
 }
 
 #title{
